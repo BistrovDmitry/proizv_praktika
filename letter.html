@@ -5,9 +5,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
    <meta name="viewport">
    <title>О нас</title>
-   <link rel="stylesheet" href="css/base.css" />
-   <link rel="stylesheet" href="css/normalize.min.css" />
-   <link rel="stylesheet" href="css/adaptative.css" />
+   <link rel="stylesheet" href="./css/base.css" />
+   <link rel="stylesheet" href="./css/normalize.min.css" />
+   <link rel="stylesheet" href="./css/adaptative.css" />
    <link rel="stylesheet" href="./css/header.css" />
    <link rel="stylesheet" href="./css/footer.css" />
    <link rel="stylesheet" href="./css/letter.css" />
@@ -15,47 +15,49 @@
      rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon-16x16.png"
+      href="./images/favicon-16x16.png"
     />
  </head>
  <body>
    <div class="wrapper">
      <div class="header">
         <div class="logo">
-           <a href="index.html"><img class="imglogo" src="./images/CMIT.png" alt="logo" /></a>
+           <a href="./index.html"><img class="imglogo" src="./images/CMIT.png" alt="logo" /></a>
          </div>
          <div class="menu">
          <ul class="hr mobilehr">
-           <li class="mli"><a href="index.html">ГЛАВНАЯ</a></li>
-           <li class="mli"><a href="contacts.html">КОНТАКТЫ</a></li>
-           <li class="mli"><a href="letter.html">НАПИСАТЬ ПИСЬМО</a></li>
+           <li class="mli"><a href="./index.html">ГЛАВНАЯ</a></li>
+           <li class="mli"><a href="./contacts.html">КОНТАКТЫ</a></li>
+           <li class="mli"><a href="./letter.html">НАПИСАТЬ ПИСЬМО</a></li>
          </ul>
          </div>
          <div class="signup">
-           <a href="registration.html">
+           <a href="./registration.html">
            <input class="button1 mobilesignup" type="button" value="РЕГИСТРАЦИЯ">
          </a>
          </div>
          <div class="signin bigsignin">
-           <a href="login.html">
+           <a href="./login.html">
              <input class="button2 mobilesignin" type="button" value="АВТОРИЗАЦИЯ">
            </a>
         </div>
       </div>
-    <div class="sms">
-      <div class="h34">
-        <form action="/letter/processing.php" method="POST">
-          <li class="li4"></li><textarea rows="10" cols="45" name="message" placeholder="Введите сообщение"></textarea></li>
+      <div class="sms">
+    <div class="h34">
+        <form action="./feedback/processing.php" method="POST">
+         <li class="li4"><input type="text" name="name" placeholder="Ваше имя"></li>
+         <li class="li4"><input type="email" name="email" placeholder="Ваш Email"></li>
+          <li class="li4"></li><textarea rows="10" cols="45" name="message" placeholder="Ваше сообщение"></textarea></li>
           <li class="li4"></li><button class="btn">Отправить</button></li>
           <div class="rama"></div>
-       </form>
-     </div>
+      </form>
+        </div>
     </div>
     <div class="footer">
         <div class="textafooter">
           <div class="ikonkitextfooter">
             <div class="ikonkifooter">
-              <a href=" https://cmit.spb.ru"
+              <a href="https://cmit.spb.ru"
                 ><div class="krug">
                   <div class="ikonka">
                     <img src="./images/browser.png" />
