@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+nav {margin-left: 5%;
+margin-right: 0%;
+font-size:x-large;
+}
+#logo {
+    width: 40%;
+}
+ul {
+    margin-left: -0%;
+}
+li {
+    margin-right: 20%;
+    white-space: nowrap;
+}
+#vhod {
+    font-size: x-large;
+    width: 200px;
+    margin-left: 00%;
+}
+#registr {
+    font-size: x-large;
+    width: 200px;
+    margin-left: 00%;
+}
