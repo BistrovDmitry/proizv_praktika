@@ -1,0 +1,52 @@
+.footer {
+  width: 100%;
+  max-height: 300px;
+  margin-left:-220px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+
+}
+.textafooter {
+  margin-left: 490px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.ikonkifooter {
+  column-gap: 15px;
+  margin-top: 25px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.ikonkizagolovok {
+  width: 111px;
+  height: 33px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.krug {
+  display: flex;
+  width: 37.17px;
+  height: 37.17px;
+  background: #b1e1f5;
+  border-radius: 50%;
+  align-items: center;
+}
+.krug:hover{
+  transition: all 1s;
+  background: #5eff00;
+}
+.ikonka {
+  display: flex;
+  width: 20.01px;
+  height: 19.44px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

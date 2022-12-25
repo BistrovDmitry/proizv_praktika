@@ -3,64 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" />
+    <title>Цмит выборг</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/adaptative.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
     />
-    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img id="logo" src="img/cmit2.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="#"
-                >Главная</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">О нас</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Связь с нами</a>
-            </li>
-            <li>
-              <button id="vhod" class="btn btn-outline-success">
-                <a href="vhod" class="nav-link">вход</a>
-              </button>
-            </li>
-            <li>
-              <button id="registr" class="btn btn-outline-success">
-                <a href="registr" class="nav-link">регистрация</a>
-              </button>
-            </li>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"
+            ><img class="imglogo" src="./images/CMIT.png" alt="logo"
+          /></a>
+        </div>
+        <div class="menu">
+          <ul class="hr mobilehr">
+            <li class="mli"><a href="index.html">ГЛАВНАЯ</a></li>
+            <li class="mli"><a href="contacts.html">КОНТАКТЫ</a></li>
+            <li class="mli"><a href="letter.html">НАПИСАТЬ ПИСЬМО</a></li>
           </ul>
         </div>
+        <div class="signup">
+          <a href="registration.html">
+            <input
+              class="button1 mobilesignup"
+              type="button"
+              value="РЕГИСТРАЦИЯ"
+            />
+          </a>
+        </div>
+        <div class="signin bigsignin">
+          <a href="login.html">
+            <input
+              class="button2 mobilesignin"
+              type="button"
+              value="АВТОРИЗАЦИЯ"
+            />
+          </a>
+        </div>
       </div>
-    </nav>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
+      <div class="container1">
+        <div class="main1row">
+          <div class="textintro">
+            <div class="txtintro">
+              <p class="txintro">
+                Центр молодежного инновационного творчества (ЦМИТ) – расположен
+                на площадке "Мой бизнес" в городе Выборге Ленинградской области.
+                Его основные задачи - развитие производственных навыков у
+                подростков и молодежи, сопровождение наиболее способных учеников
+                и ярких проектов в части грантовой поддержки, вовлечение в
+                инновационную производственную деятельность молодежи.
+              </p>
+              <p class="txintro">
+                ЦМИТ это образовательная площадка, позволяющая молодежи
+                Выборгского района обучиться работе на высокотехнологичном
+                оборудовании для создания и поддержки творческих,
+                научно-технических и инновационных проектов. Здесь же для
+                студентов и школьников организованы обучающие семинары по
+                3D-моделированию и конструированию. Cоздана производственная
+                лаборатория - открытая высокотехнологичная мастерская, которая
+                оснащена 3D-принтером, устройством для высокоточной лазерной
+                резки, управляемым компьютером фрезерным станком, плоттером для
+                резки пленки и трафаретов, микрофрезой для изготовления печатных
+                плат.
+              </p>
+              <p class="txintro">
+                Основные программы обучения в ЦМИТ для молодежи: современные
+                технологии обработки древесины; робототехника (предусмотрены
+                обучающие программы для детей и подростков различных возрастных
+                категорий); анимация; 3D моделирование; столярное дело и другие.
+              </p>
+              <p class="txintro">
+                Основные программы обучения в ЦМИТ для молодежи: современные
+                технологии обработки древесины; робототехника (предусмотрены
+                обучающие программы для детей и подростков различных возрастных
+                категорий); анимация; 3D моделирование; столярное дело и другие.
+              </p>
+              <p class="txintro">
+                Дополнительно предусмотрены обучающие программы общих
+                направлений: интерактивный английский; подготовка к школе;
+                журналистика.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="image1"><img src="images/deti.png" alt="" /></div>
+      </div>
+      <div class="footer">
+        <div class="textafooter">
+          <div class="ikonkitextfooter">
+            <div class="ikonkifooter">
+              <a href=" https://cmit.spb.ru"
+                ><div class="krug">
+                  <div class="ikonka">
+                    <img src="./images/browser.png" />
+                  </div></div
+              ></a>
+              <a href="https://www.youtube.com/channel/UCG3ssIst2PGhaP3LxQW-deA"
+                ><div class="krug">
+                  <div class="ikonka">
+                    <img src="./images/youtube.png" />
+                  </div></div
+              ></a>
+              <a href="https://vk.com/cmitvbg"
+                ><div class="krug">
+                  <div class="ikonka">
+                    <img src="./images/vk.png" />
+                  </div></div
+              ></a>
+              <a href="https://www.instagram.com/cmitvbg"
+                ><div class="krug">
+                  <div class="ikonka">
+                    <img src="./images/inst.png" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

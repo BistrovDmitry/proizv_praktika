@@ -1,0 +1,66 @@
+body {
+  font-size: 20px;
+  color: #212121;
+  font-weight: 400;
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container1 {
+  width: 100%;
+  height: 526px;
+  margin-top: 50px;
+}
+.author{
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.user{
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.sms{
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.container2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.article1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.article2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.article3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}
+.map{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  height: 526px;
+}

@@ -1,0 +1,77 @@
+.hr4{
+    display: block;
+    width: 600px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+  .li4{
+    display: block;
+    margin-bottom: 35px;
+  }
+  form{
+    display: block;
+    padding: 50px;
+    width: 600px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  input[type=text]{
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    width: 72px;
+    height: 48.23px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 272px;
+    height: 50px;
+    background: #a4e7f3;
+    border-radius: 8px;
+  }
+  input[type=email]{
+    border: none;
+    line-height: 50px;
+    text-align: center;
+    width: 72px;
+    height: 48.23px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 272px;
+    height: 50px;
+    background-color: #a4e7f3;
+    border-radius: 8px;
+  }
+  textarea{
+    line-height: 50px;
+    text-align: center;
+    width: 72px;
+    height: 48.23px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 472px;
+    height: 150px;
+    background-color: #a4e7f3;
+    border-radius: 8px;
+  }
+  .btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 152px;
+      height: 52px;
+      background: #50e3eb;
+      border-radius: 8px;
+      font-weight: 400;
+      font-size: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn:hover{
+      background-color: #5eff00;
+      transition: all 1s;
+    }

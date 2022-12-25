@@ -1,0 +1,30 @@
+.main1row {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.textintro{
+  margin-top: 100px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.txtintro {
+    width: 603px;
+  height: 90px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  color: black;
+  margin-top: -70px;
+}
+.txintro{
+    margin-bottom: 20px;
+}
+.image1 {
+  margin-top: -100px;
+  margin-left: 900px;
+}

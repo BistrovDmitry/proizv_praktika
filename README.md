@@ -1,1 +1,0 @@
-# proizv_praktika
