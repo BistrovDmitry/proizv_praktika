@@ -1,5 +1,5 @@
 <?php
-$to = "zasmolin.e@gmail.com";
+$to = "ivan.lyachin@mail.ru";
 $tema = "Форма обратной связи на PHP";
 $message = "Ваше имя: ".$_POST['name']."<br>";
 $message .= "E-mail: ".$_POST['email']."<br>";
